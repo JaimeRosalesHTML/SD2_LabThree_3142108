@@ -45,12 +45,12 @@ public class Rhombus extends Shape {
     // Task: override methods (do not implement yet)
     @Override
     public double area() {
-        return 0;
+        return (diagonal1 * diagonal2) / 2;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 4 * side;
     }
 
     // Task: include attributes in toString
