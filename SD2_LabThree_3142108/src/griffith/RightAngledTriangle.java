@@ -35,12 +35,13 @@ public class RightAngledTriangle extends Shape {
     // Task: override methods (do not implement yet)
     @Override
     public double area() {
-        return 0;
+        return (base * height) / 2;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        double hypotenuse = Math.sqrt(base * base + height * height);
+        return base + height + hypotenuse;
     }
 
     // Task: include attributes in toString
