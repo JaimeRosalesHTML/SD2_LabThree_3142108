@@ -25,12 +25,12 @@ public class Circle extends Shape {
     // Task: override methods (do not implement yet)
     @Override
     public double area() {
-        return 0;
+        return Math.PI * radius * radius;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * Math.PI * radius;
     }
 
     // Task: include radius in toString
